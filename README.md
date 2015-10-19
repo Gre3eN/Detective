@@ -9,3 +9,11 @@ doch alle werden die Ereignisse verschieden wahrnehmen.
 Der Spieler soll nun vor die Entscheidung gestellt werden, 
 wem er glaubt. Das Spiel soll verdeutlichen, dass jedes 
 Individuum eine eigene Wirklichkeit hat.
+
+# Umsetzung
+
+Das Spiel wird in einer 2D Umgebung stattfinden. Die Darstellung erfolgt durch Bilder in einem comichaften
+Stil. Man kann in verschiedenen Umgebungen mit Verdächtigen/Zeugen sprechen oder Hinweise finden. Durch
+Schaltflächen können Umgebungen gewechselt werden (kein Übergang). In Gesprächen hat man mehrere Antwortmöglichkeiten,
+die verschiedene Hinweise über den Fall offenbaren. Aufgrund der Umsetzbarkeit, werden verschiedene Antworten
+wieder zu einem gemeinsamen Pool an Antworten führen. 
