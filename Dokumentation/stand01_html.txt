@@ -1,0 +1,11 @@
+Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
+
+Detectiv-Spiel 
+
+Wir haben es uns so vorgestellt, dass die Geschichte des Spiels anhand von Bildern 
+dargestellt wird. Die Charaktere würden mit passenden Sprechblasen 
+zu der jeweiligen Situation erscheinen. Unter dem Bild befände sich eine Auswahl von Optionen, 
+unter denen der Spieler entscheiden kann, was er/sie sagen oder tun möchte. 
+Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Beenden".
+
+                  
