@@ -3,9 +3,34 @@ Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
 Detectiv-Spiel 
 
 Wir haben es uns so vorgestellt, dass die Geschichte des Spiels anhand von Bildern 
-dargestellt wird. Die Charaktere würden mit passenden Sprechblasen 
-zu der jeweiligen Situation erscheinen. Unter dem Bild befände sich eine Auswahl von Optionen, 
-unter denen der Spieler entscheiden kann, was er/sie sagen oder tun möchte. 
-Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Beenden".
+dargestellt wird. Die Charaktere wÃ¼rden mit passenden Sprechblasen 
+zu der jeweiligen Situation erscheinen. Unter dem Bild befÃ¤nde sich eine Auswahl von Optionen, 
+unter denen der Spieler entscheiden kann, was er/sie sagen oder tun mÃ¶chte. 
+Daneben eine kleine MenÃ¼leiste fÃ¼r weitere Optionen wie zum Beispiel "Spiel Beenden".
 
-                  
+
+                  -<html>
++<html>     
+ 	<head>
+ 			<link rel="stylesheet" href="style.css">
+ 		<title>Lorem Ipsum</title>
+ @@ -10,3 +10,19 @@
+     </div>
+ </body>
+ </html>
++
++
++
++// style.css
++
++#parent
++{
++  position: relative;
++}
++ 
++#child_1, #child_2
++{
++  position: absolute;
++}
++
++ 
