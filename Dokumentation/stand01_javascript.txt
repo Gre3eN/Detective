@@ -16,19 +16,52 @@ von Antworten. Bei der Auswahl bestimmter Schaltflächen muss das Hintergrundbil
 <button id="b4" type="button" onclick="a1Change(this)"><p id="a4">Antwort 4</p></button>
 
 <script>
+var x = 0;
+var y = 1;
+
 function a1Change(elem) {
 
-	if ((elem.id == "b1") || (elem.id == "b2")) {
-		document.getElementById("a1").innerHTML = "Antwort 1.1";
-		document.getElementById("a2").innerHTML = "Antwort 1.2";
-		document.getElementById("a3").innerHTML = "Antwort 1.3";
-		document.getElementById("a4").innerHTML = "Antwort 1.4";
+	x += 1;
+	y += 1;
+
+var a1 = document.getElementById("a1"),
+	a2 = document.getElementById("a2"),
+	a3 = document.getElementById("a3"),
+	a4 = document.getElementById("a4");
+	
+
+	if ((elem.id == "b1" || elem.id == "b2") && x == 1) {
+	
+		a1.innerHTML = "Antwort 1.1";
+		a2.innerHTML = "Antwort 1.2";
+		a3.innerHTML = "Antwort 1.3";
+		a4.innerHTML = "Antwort 1.4";
+		x += 1;
+				
 		
-	} else if ((elem.id == "b3") || (elem.id == "b4")) {
-		document.getElementById("a1").innerHTML = "Antwort 3.1";
-		document.getElementById("a2").innerHTML = "Antwort 3.2";
-		document.getElementById("a3").innerHTML = "Antwort 3.3";
-		document.getElementById("a4").innerHTML = "Antwort 3.4";
+	} else if ((elem.id == "b3" || elem.id == "b4") && y == 2) {
+		
+		a1.innerHTML = "Antwort 3.1";
+		a2.innerHTML = "Antwort 3.2";
+		a3.innerHTML = "Antwort 3.3";
+		a4.innerHTML = "Antwort 3.4";
+		y += 1;
+		
+	} else if ((elem.id == "b1" || elem.id == "b2") && x == 3) {
+	
+		a1.innerHTML = "Antwort 1.1.1";
+		a2.innerHTML = "Antwort 1.1.2";
+		a3.innerHTML = "Antwort 1.1.3";
+		a4.innerHTML = "Antwort 1.1.4";
+		x += 1;
+		
+	} else if ((elem.id == "b3" || elem.id == "b4") && y == 4) {
+	
+		a1.innerHTML = "Antwort 3.1.1";
+		a2.innerHTML = "Antwort 3.1.2";
+		a3.innerHTML = "Antwort 3.1.3";
+		a4.innerHTML = "Antwort 3.1.4";
+		y += 1;
 
 	}
 }
