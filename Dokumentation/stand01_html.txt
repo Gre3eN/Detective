@@ -33,4 +33,29 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 +  position: absolute;
 +}
 +
-+ 
++
+
+
+// verbesserte Version
+
+<html>
+<head>
+<style type="text/css">
+body {
+        background-image: url(background.jpg);
+		background-repeat: no-repeat;
+}
+a:link {
+        position: absolute;
+        right: 700px;
+        bottom: 200px;
+		color: white;
+}
+</style>
+</head>
+<body>
+<img src="bild.png" style="width:100px; height:150px; margin-top:400px;" />
+<a href="#">Continue</a>
+</body>
+</html>
+
