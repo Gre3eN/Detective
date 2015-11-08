@@ -23,21 +23,12 @@ Bugs:
 <button id="b4" type="button" onclick="a1Change(this)"><p id="a4">Antwort 4</p></button>
 
 <script>
-var x = 0;
-var y = 0;
-var x1 = 0;
-var y1 = 0;
-var x2 = 0;
-var y2 = 0;
+var z = [x=0, y=0, x1=0, y1=0, x2=0, y2=0, x3=0];
+
 
 function a1Change(elem) {
 
-	x += 1;
-	y += 1;
-	x1 += 1;
-	y1 += 1;
-	x2 += 1;
-	y2 += 1;
+	z[0] += 1; z[1] += 1; z[2] += 1; z[3] += 1; z[4] += 1; z[5] += 1; z[6] += 1;
 
 var a1 = document.getElementById("a1"),
 	a2 = document.getElementById("a2"),
@@ -46,93 +37,97 @@ var a1 = document.getElementById("a1"),
 	s1 = document.getElementById("s1");
 	
 
-	if ((elem.id == "b1" || elem.id == "b2") && x == 1) {
+	if ((elem.id == "b1" || elem.id == "b2") && z[0] == 1) {
 	
 		a1.innerHTML = "Und wie gehts dir? (Antwort 1.1)";
 		a2.innerHTML = "Alles gut? (Antwort 1.2)";
 		a3.innerHTML = "Hast du viel zu tun? (Antwort 1.3)";
 		a4.innerHTML = "Wie gehts mit der Arbeit? (Antwort 1.4)";
 		s1.innerHTML = "Schoen.";
-		x += 1;
+		z[0] += 1;
 				
 		
-	} else if ((elem.id == "b3" || elem.id == "b4") && y == 1) {
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[1] == 1) {
 		
 		a1.innerHTML = "Mein Chef ist suuuper nervig! (Antwort 3.1)";
 		a2.innerHTML = "Die Arbeit ist echt anstrengend ... (Antwort 3.2)";
 		a3.innerHTML = "Lisbeth hat mich verlassen :( (Antwort 3.3)";
 		a4.innerHTML = "ICH hab meine Freundin stehen lassen 8) (Antwort 3.4)";
 		s1.innerHTML = "Oh nein, was ist denn los?";
-		y += 1;
+		z[1] += 1;
 		
-	} else if ((elem.id == "b1" || elem.id == "b2") && x == 3 && y < 3) {
+	} else if ((elem.id == "b1" || elem.id == "b2") && z[0] == 3 && z[1] < 3) {
 	
 		a1.innerHTML = "Schoen zu hoeren. (Antwort 1.1.1)";
 		a2.innerHTML = "Das freut mich. (Antwort 1.1.2)";
 		a3.innerHTML = "Ist Anna eigentlich gegangen? (Antwort 1.1.3)";
 		a4.innerHTML = "Ich hab gehoert du hast dich von deiner Freundin getrennt? (Antwort 1.1.4)";
 		s1.innerHTML = "Bei mir ist alles wie beim Alten.";
-		x1 += 1;
+		z[2] += 1;
 		
-	} else if ((elem.id == "b3" || elem.id == "b4") && x == 3 && y < 3) {
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[0] == 3 && z[1] < 3) {
 	
 		a1.innerHTML = "Ja, kenn ich. (Antwort 1.3.1)";
 		a2.innerHTML = "Bei mir genau dasselbe! (Antwort 1.3.2)";
 		a3.innerHTML = "Kriegst du inzwischen mehr Lohn? (Antwort 1.3.3)";
 		a4.innerHTML = "Du solltest dich echt um eine Gehaltserhoehung kuemmern! (Antwort 1.3.4)";
 		s1.innerHTML = "Ach die Arbeit ist stressig wie immer.";
-		x2 += 1;
+		z[4] += 1;
 		
-	} else if ((elem.id == "b1" || elem.id == "b2") && y == 3 && x < 3) {
+	} else if ((elem.id == "b1" || elem.id == "b2") && z[1] == 3 && z[0] < 3) {
 	
 		a1.innerHTML = "Und dann noch Beziehungsstress ... (Antwort 3.1.1)";
 		a2.innerHTML = "Und jetzt hat sich Lisbeth getrennt? (Antwort 3.1.2)";
 		a3.innerHTML = "Kriegst du wenigstens inzwischen mehr Lohn? (Antwort 3.1.3)";
 		a4.innerHTML = "Du solltest dich echt um eine Gehaltserhoehung kuemmern! (Antwort 3.1.4)";
 		s1.innerHTML = "Ja bei mir genauso. Immernoch so stressig wie frueher.";
-		y1 += 1;
+		z[3] += 1;
 		
-	} else if ((elem.id == "b3" || elem.id == "b4") && y == 3 && x < 3) {
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[1] == 3 && z[0] < 3) {
 	
 		a1.innerHTML = "Naja, ich glaube es war richtig so. (Antwort 3.3.1)";
 		a2.innerHTML = "Es war hart, aber ich schaue jetzt nur nach vorne! (Antwort 3.3.2)";
 		a3.innerHTML = "Hat sich Anna nicht von dir getrennt? (Antwort 3.3.3)";
 		a4.innerHTML = "Ich hab gehoert du hast dich von deiner Freundin getrennt? (Antwort 3.3.4)";
 		s1.innerHTML = "Ach echt? Das ist ja schade.";
-		y2 += 1;
+		z[5] += 1;
 	
-	} else if ((elem.id == "b1" || elem.id == "b2") && ((x1 == 4) || (x2 == 4))) {
+	} else if ((elem.id == "b1" || elem.id == "b2") && ((z[2] == 4) || (z[4] == 4))) {
 	
 		a1.innerHTML = "Alles klar, man sieht sich.";
 		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
 		a3.innerHTML = "Komm in meine Arme. Hau rein!";
 		a4.innerHTML = "Tschau.";
 		s1.innerHTML = "Naja, machs gut. Ich muss los.";
+		z[6] += 1;
 	
-	} else if ((elem.id == "b3" || elem.id == "b4") && ((x1 == 4) || (y2 == 4))) {
+	} else if ((elem.id == "b3" || elem.id == "b4") && ((z[2] == 4) || (z[5] == 4))) {
 	
 		a1.innerHTML = "Alles klar, man sieht sich.";
 		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
 		a3.innerHTML = "Komm in meine Arme. Hau rein!";
 		a4.innerHTML = "Tschau.";
 		s1.innerHTML = "Ja wir sind nicht mehr zusammen ... So ich muss los, machs gut.";
+		z[6] += 1;
 		
-	} else if ((elem.id == "b1" || elem.id == "b2") && ((y1 == 4) || (y2 == 4))) {
+	} else if ((elem.id == "b1" || elem.id == "b2") && ((z[3] == 4) || (z[5] == 4))) {
 	
 		a1.innerHTML = "Alles klar, man sieht sich.";
 		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
 		a3.innerHTML = "Komm in meine Arme. Hau rein!";
 		a4.innerHTML = "Tschau.";
-		s1.innerHTML = "Du wirst das schon schaffen. Ich kenn dich doch! Aber ich muss jetzt wirklich los. Machs gut!";
+		s1.innerHTML = "Du wirst das schon schaffen. Ich kenn dich doch! Aber ich muss jetzt wirklich los. Machs 	                gut!";
+		z[6] += 1;
 	
-	} else if ((elem.id == "b3" || elem.id == "b4") && ((x2 == 4) || (y1 == 4))) {
+	} else if ((elem.id == "b3" || elem.id == "b4") && ((z[4] == 4) || (z[3] == 4))) {
 	
 		a1.innerHTML = "Alles klar, man sieht sich.";
 		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
 		a3.innerHTML = "Komm in meine Arme. Hau rein!";
 		a4.innerHTML = "Tschau.";
 		s1.innerHTML = "Ja, wahrscheinlich hast du Recht ... Hoer mal, ich muss jetzt leider los. Hau rein.";
-	
+		z[6] += 1;
+		
 	}
 }
 
