@@ -36,7 +36,7 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 +
 
 
-// verbesserte Version
+// verbesserte Version von Seite 1
 
 <html>
 <head>
