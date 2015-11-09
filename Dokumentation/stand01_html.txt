@@ -36,6 +36,8 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 +
 
 
+
+
 // verbesserte Version von Seite 1
 
 <html>
@@ -59,3 +61,62 @@ a:link {
 </body>
 </html>
 
+
+
+
+// Verbesserungen zu Seite 1
+
+<html>
+<head>
+<style type="text/css">
+body 	{background-image: url(background.jpg);
+		background-repeat: no-repeat;
+		margin:0 auto;}
+		
+a:link {position: absolute;
+        right: 700px;
+        bottom: 220px;
+		color: white;
+		font-family:Arial;
+		text-decoration:none;
+}
+
+.content 	{width:500px;
+			height:400px;
+			margin-left:300px;
+			margin-top:100px;
+			background-color:black;
+			opacity:0.7;
+			-moz-border-radius:8px;
+			-khtml-border-radius:8px;
+			-webkit-border-radius:8px;
+			-o-border-radius:8px;
+			box-shadow:8px 8px 8px black;
+			border-color:white;
+			border-width:1px;
+			border-style:solid;}
+			
+p			{padding:30px;
+			font-family:Arial;
+			color:white;}		
+
+h1			{padding:30px;
+			font-family:Arial;
+			color:white;}	
+
+</style>
+</head>
+<body>
+<img src="bild.png" style="width:100px; height:150px; margin-top:400px; padding:10px; float:left;" />
+<section class="content">
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+</section>
+<a href="#">Continue</a>
+</body>
+</html>
