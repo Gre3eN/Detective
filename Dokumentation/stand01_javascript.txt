@@ -10,5 +10,9 @@ Bugs:
   genutzt)
 
 
-
+Updates:
+02.11.15 Simple Gespraechs-Funktion
+07.11.15 Gespraechs-Funktion plus Multiple Choice
+08.11.15 Verbesserung Gespraechs-Funktion
+16.11.15 Voerste Vollendung der Gespraechs-Funktion, Konzeptionierung benoetigter Funktionen
 
