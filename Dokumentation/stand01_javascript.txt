@@ -4,8 +4,8 @@ von Antworten. Bei der Auswahl bestimmter Schaltflächen muss das Hintergrundbil
 
 
 Bugs:
-- Wenn auf eine der letzten Antworten geklickt wird, aendert sich nochmal der normale Text. (Zu vernachlaessigen, da 
-  das Gespraech nach der letzten Antwort zukuenftig automatisch beendet werden soll.)
+- Wenn auf eine der letzten Antworten geklickt wird, aendert sich in manchen Faellen nochmal der normale Text, ansonsten muss
+  zweimal geklickt werden. (verringern des x31 Wertes bringt nichts)
 - Der letzte Schritt (z[6]) funktioniert mit dem Array aus irgendeinem Grund nicht (Erste Loesung: var x31 stattdessen
   genutzt)
 
