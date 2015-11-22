@@ -2,23 +2,51 @@
 <html>
 <body>
 
-<a href="##...##" onclick="item_clicked();"></a>
+<img src="messer.jpg" onclick="item_clicked(0);"><p id="item0">Messer</p></img>
+<img src="seil.jpg" onclick="item_clicked(1);" /><p id="item1">Seil</p></img>
+
 
 
 <script>
 
-function item_clicked() {
+var x;
+var items = [messer = false, seil = false, item2 = false, item3 = false , item4 = false, item5 = false];
+
+
+function item_clicked(x) {
 	
 	//Link zum angeklickten Item zur Datenbank
 	//Wert des Items in der Datenbank von (default) false auf true setzen
 	//Im Beutel werden alle Items der Datenbank angezeigt, deren boolean Wert auf true ist
 	//Animation des Item-Bildes beim Verschwinden
 
+	
+	if (!items[x]){
+		items[x] = true;
+		document.getElementById("item" + x).innerHTML = "true";
+	}
+		
 
+}
+
+function inventory() {
+
+
+for (var y = 0; y < items.length; ++y){
+	if (!items[y]){
+		document.getElementById("item" + y).style.display = "none";
+	} else {
+		document.getElementById("item" + y).style.display = "block";
+	}
+}
 
 
 
 }
+
+
+
+
 
 </script>
 
