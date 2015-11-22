@@ -120,3 +120,240 @@ Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
 <a href="#">Continue</a>
 </body>
 </html>
+
+
+
+// Seite 1 mit Dropdownmenü und Verlinkung zu Seite 2
+
+
+<html>
+<head>
+<style type="text/css">
+body 	{background-image: url(background.jpg);
+		background-repeat: no-repeat;
+		background-color: black;
+		margin: 0 auto;}
+		
+
+.content 	{width:500px;
+			height:400px;
+			margin-left:350px;
+			margin-top:100px;
+			background-color:black;
+			opacity:0.7;
+			-moz-border-radius:8px;
+			-khtml-border-radius:8px;
+			-webkit-border-radius:8px;
+			-o-border-radius:8px;
+			box-shadow:8px 8px 8px black;
+			border-color:white;
+			border-width:1px;
+			border-style:solid;}
+			
+p			{padding:25px;
+			font-family:Arial;
+			color:white;
+			line-height:25px;}		
+
+h1			{padding-top:30px;
+			padding-left:30px;
+			font-family:Arial;
+			color:white;}	
+
+			
+#menu 		{font-size:15px;
+			position:absolute;
+			margin-top:450px;
+			margin-left:200px;}
+
+#menu ul 	{list-style-type:none;
+			list-style-image:none;
+			margin:0px;
+			padding:0px;}
+
+#menu li.topmenu {float:left;}
+
+.topmenu a 	{float:left;
+			width:200px;
+			text-align:center;
+			opacity: 0.8;}
+
+.topmenu ul	{display:none;}
+
+.topmenu a, .submenu a		{font-family: Arial;
+							padding:1px 5px;
+							  border:1px solid white;
+							  border-collapse:collapse;
+							  color:white;
+							  text-decoration:none;
+							  background-color:black;
+							  margin:0;  }
+
+.submenu a{
+  font-size:12px;
+  width:200px;
+  position:relative;
+  clear:both; /* special IE6 */
+}
+
+#menu a:hover, .topmenu.on a {
+  color:#4C4C4C;
+  background-color:#ffddbb !important;
+}
+
+.topmenu:hover ul {
+  display:block;  
+  z-index:500;
+}
+</style>
+</head>
+<body>
+
+<div id="menu">
+    <ul>
+      <li class="topmenu">
+        <a href="">Hauptmen&uuml;</a>
+        <ul>
+          <li class="submenu"><a href="">Speichern</a></li>
+          <li class="submenu"><a href="">Spielstand laden</a></li>
+		  <li class="submenu"><a href="">Beenden</a></li>
+        </ul>
+      </li>
+      <li class="topmenu">
+        <a href="">Notizbuch</a>
+        <ul>
+          <li class="submenu"><a href="">Gesammelte Indizien</a></li>
+          <li class="submenu"><a href="">Info/Hilfe</a></li>
+        </ul>
+      </li>
+      <li class="topmenu">
+        <a href="">Gespr&auml;chsoptionen</a>
+        <ul>
+          <li class="submenu"><a href="">Antwort 1</a></li>
+          <li class="submenu"><a href="">Antwort 2</a></li>
+		  <li class="submenu"><a href="">Antwort 3</a></li>
+        </ul>
+      </li>
+	  <li class="topmenu">
+        <a href="page2.html">Continue</a>
+      </li>
+    </ul>
+  </div>
+<section class="content">
+<h1>Welcome</h1>
+<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. 
+In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+Nullam dictum felis eu pede mollis pretium. Integer tincidunt.</p>
+</section>
+
+</body>
+</html>
+
+
+// Seite 2
+
+<html>
+<head>
+<style type="text/css">
+body 	{background-image: url(background2.jpg);
+		background-repeat: no-repeat;
+		background-color: black;
+		margin: 0 auto;}
+		
+			
+p			{padding:30px;
+			font-family:Arial;
+			color:white;}		
+
+h1			{padding:30px;
+			font-family:Arial;
+			color:white;}	
+
+			
+#menu 		{font-size:15px;
+			position:absolute;
+			margin-top:550px;
+			margin-left:100px;}
+
+#menu ul 	{list-style-type:none;
+			list-style-image:none;
+			margin:0px;
+			padding:0px;}
+
+#menu li.topmenu {float:left;}
+
+.topmenu a 	{float:left;
+			width:200px;
+			text-align:center;
+			opacity: 0.8;}
+
+.topmenu ul	{display:none;}
+
+.topmenu a, .submenu a		{font-family: Arial;
+							padding:1px 5px;
+							  border:1px solid white;
+							  border-collapse:collapse;
+							  color:white;
+							  text-decoration:none;
+							  background-color:black;
+							  margin:0;  }
+
+.submenu a{
+  font-size:12px;
+  width:200px;
+  position:relative;
+  clear:both; /* special IE6 */
+}
+
+#menu a:hover, .topmenu.on a {
+  color:#4C4C4C;
+  background-color:#ffddbb !important;
+}
+
+.topmenu:hover ul {
+  display:block;  
+  z-index:500;
+}
+</style>
+</head>
+<body>
+
+<div id="menu">
+    <ul>
+      <li class="topmenu">
+        <a href="">Hauptmen&uuml;</a>
+        <ul>
+          <li class="submenu"><a href="">Speichern</a></li>
+          <li class="submenu"><a href="">Spielstand laden</a></li>
+		  <li class="submenu"><a href="">Beenden</a></li>
+        </ul>
+      </li>
+      <li class="topmenu">
+        <a href="">Notizbuch</a>
+        <ul>
+          <li class="submenu"><a href="">Gesammelte Indizien</a></li>
+          <li class="submenu"><a href="">Info/Hilfe</a></li>
+        </ul>
+      </li>
+      <li class="topmenu">
+        <a href="">Gespr&auml;chsoptionen</a>
+        <ul>
+          <li class="submenu"><a href="">Antwort 1</a></li>
+          <li class="submenu"><a href="">Antwort 2</a></li>
+		  <li class="submenu"><a href="">Antwort 3</a></li>
+        </ul>
+      </li>
+	  <li class="topmenu">
+        <a href="page3">Continue</a>
+      </li>
+    </ul>
+  </div>
+<section class="content">
+</section>
+
+</body>
+</html>
+
