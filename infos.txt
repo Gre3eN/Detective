@@ -1,0 +1,7 @@
+Kenntnisstand:
+  - W3Schools SQL Tutorials: bis Kapitel "SQL Like"
+  - "rumspielen" mit Xampp und phpMyAdmin
+  
+Benutzte Quellen:
+  - Tutorial Node-MySQL: http://www.sitepoint.com/using-node-mysql-javascript-client/
+  - Node-MySQL: https://github.com/felixge/node-mysql
