@@ -1,4 +1,4 @@
-Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
+﻿Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
 
 Detectiv-Spiel 
 
@@ -357,3 +357,13 @@ h1			{padding:30px;
 </body>
 </html>
 
+=== Feedback Alpers, nov 27 ===
+
+Liebe/r Studierende/r,
+
+in den Dokumentationsdateien soll ausschließlich stehen, welche Entscheidungen Sie im Laufe des Projekts getroffen haben, und was Sie jeweils umgesetzt haben. Eine Kopie vom Quellcode ist keine Dokumentation.
+
+Außerdem sollen Sie regelmäßig den aktuellen Stand des Projekts im master mergen. Nur was im master ist geht in die Wertung ein.
+
+Viele Grüße,
+Markus Alpers

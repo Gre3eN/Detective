@@ -1,4 +1,4 @@
-19.10.15	Mirko Brandt
+﻿19.10.15	Mirko Brandt
 In dem Spiel wird es mehrere Antwortmöglichkeiten geben. Je nachdem welche ausgewählt wird, gelangt man zu einem neuen Pool
 von Antworten. Bei der Auswahl bestimmter Schaltflächen muss das Hintergrundbild gewechselt werden.
 
@@ -16,3 +16,15 @@ Updates:
 08.11.15 Verbesserung Gespraechs-Funktion
 16.11.15 Voerste Vollendung der Gespraechs-Funktion, Konzeptionierung benoetigter Funktionen
 
+=== Feedback Alpers, nov 27 ===
+
+Liebe/r Studierende/r,
+
+an sich sollten Sie zwar den Fortschritt des Projekts jeweils in einzelnen Dateien (stand01_ ... , stand02_... usw.) dokumentieren, aber so geht es natürlich auch.
+
+Allerdings sagt dieser Stand nicht viel über die Entwicklung des Projekts aus; versuchen Sie möglichst etwas mehr dazu zu schreiben, warum Sie welche Entscheidungen getroffen haben. Es wäre auch gut, wenn Sie die für Ihren Anteil relevanten Teile der Teammeetings festhalten würden.
+
+Leider findet sich im master-branch aber kein Code von Ihnen. Bitte achten Sie in Zukunft darauf, Ihren Anteil in den master zu mergen; so lange Sie das nicht tun arbeiten Sie leider nicht als Mitglied eines Teams. Diesen Fehler machen zwar fast alle Studierenden, aber das ändert natürlich nichts am Problem. Ich werde auch nur das kommentieren und in die Wertung einbeziehen, was im master branch enthalten ist.
+
+Viele Grüße,
+Markus Alpers
