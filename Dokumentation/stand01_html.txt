@@ -1,0 +1,24 @@
+﻿Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
+
+Detectiv-Spiel 
+
+Wir haben es uns so vorgestellt, dass die Geschichte des Spiels anhand von Bildern 
+dargestellt wird. Die Charaktere würden mit passenden Sprechblasen 
+zu der jeweiligen Situation erscheinen. Unter dem Bild befände sich eine Auswahl von Optionen, 
+unter denen der Spieler entscheiden kann, was er/sie sagen oder tun möchte. 
+Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Beenden".
+
+- Seite 1 mehrfach überarbeitet 
+- Seite 2 erstellt und mit Seite 1 verlinkt
+- Dropdownmenü hinzugefügt für die einzelnen Optionen
+
+=== Feedback Alpers, nov 27 ===
+
+Liebe/r Studierende/r,
+
+in den Dokumentationsdateien soll ausschließlich stehen, welche Entscheidungen Sie im Laufe des Projekts getroffen haben, und was Sie jeweils umgesetzt haben. Eine Kopie vom Quellcode ist keine Dokumentation.
+
+Außerdem sollen Sie regelmäßig den aktuellen Stand des Projekts im master mergen. Nur was im master ist geht in die Wertung ein.
+
+Viele Grüße,
+Markus Alpers
