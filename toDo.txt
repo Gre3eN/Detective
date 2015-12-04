@@ -1,0 +1,3 @@
+- ein paar einfache Tabellen erstellen [x]
+- Verbindung JS mit MySQL über Node.js [x]
+- Kommentare im JS-Code an den Stellen einfügen, an denen Daten aus der Datenbank benötigt werden []
