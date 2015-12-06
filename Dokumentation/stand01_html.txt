@@ -11,6 +11,9 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 - Seite 1 mehrfach überarbeitet 
 - Seite 2 erstellt und mit Seite 1 verlinkt
 - Dropdownmenü hinzugefügt für die einzelnen Optionen
+- Eine "Go Back " Funktion eingerichtet, um zur vorherigen Seite zurück zu gehen
+- Das Menü insgesamt überarbeitet und einen anderen Hintergrund eingefügt auf Seite 2
+- Eine Sprechblase eingefügt für die Gesprächsoptionen
 
 === Feedback Alpers, nov 27 ===
 
