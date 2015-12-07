@@ -3,6 +3,7 @@
 <style type="text/css">
 body 	{background-image: url(background2.jpg);
 		background-repeat: no-repeat;
+		background-size: 100%;
 		background-color: black;
 		margin: 0 auto;}
 		
@@ -19,7 +20,7 @@ h1			{padding:30px;
 #menu 		{font-size:15px;
 			position:absolute;
 			margin-top:550px;
-			margin-left:100px;}
+			margin-left:200px;}
 
 #menu ul 	{list-style-type:none;
 			list-style-image:none;
@@ -42,7 +43,8 @@ h1			{padding:30px;
 							  color:white;
 							  text-decoration:none;
 							  background-color:black;
-							  margin:0;  }
+							  margin:0;  
+							  height: 20px;}
 
 .submenu a{
   font-size:12px;
@@ -60,9 +62,52 @@ h1			{padding:30px;
   display:block;  
   z-index:500;
 }
+
+#sprechblase {position:absolute;
+		margin-top:100px;
+		margin-left:500px;
+      width: 250px;  
+      height: 120px;
+      font-size: 12px;
+	  font-family: Arial;
+      font-color: white;
+      border: 2px solid white;
+      -webkit-border-radius: 20px;  
+      -moz-border-radius: 20px;  
+      border-radius: 20px;
+      background: black;
+	  opacity: 0.8;
+     }
+	 
+	 p	{padding:10px}
+	 
+	 
+  #sprechblase:before { 
+  position: absolute;
+      content: ' ';  
+      width: 0;  
+      height: 0;  
+      left: 30px;  
+      top: 120px;  
+      border: 20px solid;  
+     border-color: white transparent transparent white;
+      } 
+#sprechblase:after {  
+      content: ' ';  
+	  position: absolute;
+      width: 0;  
+      height: 0;  
+      left: 34px;  
+      top: 120px;  
+      border: 15px solid;  
+border-color: black transparent transparent black;
+      }	  
 </style>
 </head>
 <body>
+
+<div id="sprechblase"><p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. 
+Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
 
 <div id="menu">
     <ul>
@@ -81,16 +126,11 @@ h1			{padding:30px;
           <li class="submenu"><a href="">Info/Hilfe</a></li>
         </ul>
       </li>
-      <li class="topmenu">
-        <a href="">Gespr&auml;chsoptionen</a>
-        <ul>
-          <li class="submenu"><a href="">Antwort 1</a></li>
-          <li class="submenu"><a href="">Antwort 2</a></li>
-		  <li class="submenu"><a href="">Antwort 3</a></li>
-        </ul>
-      </li>
 	  <li class="topmenu">
         <a href="page3">Continue</a>
+      </li>
+	  <li class="topmenu">
+        <a href="index.html">Go Back</a>
       </li>
     </ul>
   </div>
