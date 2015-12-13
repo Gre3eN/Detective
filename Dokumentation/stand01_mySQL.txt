@@ -8,3 +8,14 @@
 - Weiterhin soll es eine Art Notizbuch geben, da es sich um ein Detektiv-Spiel handelt, 
   in welchem gefundene Hinweise automatisch abgespeichert werden und man soll in der
   Lage sein die Hinweise durch eigene Gedanken zu ergänzen.
+
+=== Kommentar Alpers, nov 27 ===
+
+Lieber Herr Fock,
+
+bitte aktualisieren Sie die Dokumentation zum Stand Ihres Projektteils regelmäßig.
+
+Der Code (Erzeugung der Relationen) ist sehr gut, schön, dass Sie hier mehr implementiert haben als die Punkte, die ich in der Veranstaltung angesprochen habe.
+
+Bitte klären Sie mit dem Rest Ihres Teams noch ab, dass regelmäßig der aktuelle Stand in den master branch gemerget wird, denn nur den kontrolliere ich.
+
