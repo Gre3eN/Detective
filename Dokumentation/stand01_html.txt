@@ -14,6 +14,10 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 - Eine "Go Back " Funktion eingerichtet, um zur vorherigen Seite zurück zu gehen
 - Das Menü insgesamt überarbeitet und einen anderen Hintergrund eingefügt auf Seite 2
 - Eine Sprechblase eingefügt für die Gesprächsoptionen
+- Alle Seiten überarbeitet
+- neue Sprechblase für die Antwortmöglichkeiten eingefügt
+- 3 neue Seiten hinzugefügt
+- Seiten mit den Antwortenmöglichkeiten im Gespräch verlinkt
 
 === Feedback Alpers, nov 27 ===
 
