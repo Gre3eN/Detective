@@ -18,6 +18,10 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
 - neue Sprechblase für die Antwortmöglichkeiten eingefügt
 - 3 neue Seiten hinzugefügt
 - Seiten mit den Antwortenmöglichkeiten im Gespräch verlinkt
+- Die Antworten mit neuen Seiten zu verlinken ist nur eine vorübergehende Lösung, 
+  da so nach jeder Antwort eine neue Seite aufgerufen   werden muss.
+  Daher haben wir die Gesprächoptionen nun mit JavaScript 
+  geschrieben haben und müssen den Code noch in den html code implementieren.
 
 === Feedback Alpers, nov 27 ===
 
