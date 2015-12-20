@@ -1,20 +1,16 @@
 <html>
 <head>
+
 <style type="text/css">
-body 	{background-image: url(background2.jpg);
+body 	{background-image: url(background2test.jpg);
 		background-repeat: no-repeat;
 		background-size: 100%;
 		background-color: black;
 		margin: 0 auto;}
 		
 			
-p			{padding:30px;
-			font-family:Arial;
+p			{font-family:Arial;
 			color:white;}		
-
-h1			{padding:30px;
-			font-family:Arial;
-			color:white;}	
 
 			
 #menu 		{font-size:15px;
@@ -64,13 +60,13 @@ h1			{padding:30px;
 }
 
 #sprechblase {position:absolute;
-		margin-top:200px;
-		margin-left:200px;
-      width: 250px;  
-      height: 120px;
+		margin-top:150px;
+		margin-left:100px;
+	  width: 300px;  
+      height: 250px;
+	  line-height: 20px;
       font-size: 15px;
 	  font-family: Arial;
-	  line-height:20px;
       font-color: white;
       border: 2px solid white;
       -webkit-border-radius: 20px;  
@@ -78,9 +74,8 @@ h1			{padding:30px;
       border-radius: 20px;
       background: black;
 	  opacity: 0.8;
+	  padding-left:15px;
      }
-	 
-	 p	{padding:10px}
 	 
 	 
   #sprechblase:before { 
@@ -89,7 +84,7 @@ h1			{padding:30px;
       width: 0;  
       height: 0;  
       left: 30px;  
-      top: 120px;  
+      top: 250px;  
       border: 20px solid;  
      border-color: white transparent transparent white;
       } 
@@ -99,20 +94,20 @@ h1			{padding:30px;
       width: 0;  
       height: 0;  
       left: 34px;  
-      top: 120px;  
+      top: 250px;  
       border: 15px solid;  
 border-color: black transparent transparent black;
       }	  
 	  
 	  
 #sprechblasezwei {position:absolute;
-		margin-top:300px;
-		margin-left:700px;
+		margin-top:200px;
+		margin-left:600px;
       width: 250px;  
       height: 120px;
       font-size: 15px;
+	  line-height: 20px;
 	  font-family: Arial;
-	  line-height:20px;
       font-color: white;
       border: 2px solid white;
       -webkit-border-radius: 20px;  
@@ -120,9 +115,8 @@ border-color: black transparent transparent black;
       border-radius: 20px;
       background: black;
 	  opacity: 0.8;
+	  padding-left:15px;
      }
-	 
-	 p	{padding:10px}
 	 
 	 
   #sprechblasezwei:before { 
@@ -148,16 +142,141 @@ border-color: black transparent transparent black;
 	  
 A{text-decoration:none;}
 A:link {color:white;}
-A:visited {color:white;}	  
+A:visited {color:white;}	
+
+#b1, #b2, #b3, #b4 {background:none;
+					border: none;
+					padding:0px;}
+
+				
 </style>
+
+<script language="javascript" type="text/javascript">
+var z = [x=0, y=0, x1=0, y1=0, x2=0, y2=0, x3=0];
+var x31 = 0;
+function a1Change(elem) {
+	z[0] += 1; z[1] += 1; z[2] += 1; z[3] += 1; z[4] += 1; z[5] += 1; z[6] += 1;
+	x31+=1;
+var a1 = document.getElementById("a1"),
+	a2 = document.getElementById("a2"),
+	a3 = document.getElementById("a3"),
+	a4 = document.getElementById("a4"),
+	s1 = document.getElementById("s1");
+	
+	if ((elem.id == "b1" || elem.id == "b2") && z[0] == 1) {
+	
+		a1.innerHTML = "Antwort 1.1: Und wie gehts dir?";
+		a2.innerHTML = "Antwort 1.2: Alles gut?";
+		a3.innerHTML = "Antwort 1.3: Hast du viel zu tun?";
+		a4.innerHTML = "Antwort 1.4: Wie gehts mit der Arbeit?";
+		s1.innerHTML = "Sch&ouml;n.";
+		z[0] += 1;
+				
+		
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[1] == 1) {
+		
+		a1.innerHTML = "Antwort 3.1: Mein Chef ist super nervig!";
+		a2.innerHTML = "Antwort 3.2: Die Arbeit ist echt anstrengend...";
+		a3.innerHTML = "Antwort 3.3: Lisbeth hat mich verlassen";
+		a4.innerHTML = "Antwort 3.4: Ich hab meine Freundin stehen lassen";
+		s1.innerHTML = "Antwort 3.5: Oh nein, was ist denn los?";
+		z[1] += 1;
+		
+	} else if ((elem.id == "b1" || elem.id == "b2") && z[0] == 3 && z[1] < 3) {
+	
+		a1.innerHTML = "Schoen zu hoeren. (Antwort 1.1.1)";
+		a2.innerHTML = "Das freut mich. (Antwort 1.1.2)";
+		a3.innerHTML = "Ist Anna eigentlich gegangen? (Antwort 1.1.3)";
+		a4.innerHTML = "Ich hab gehoert du hast dich von deiner Freundin getrennt? (Antwort 1.1.4)";
+		s1.innerHTML = "Bei mir ist alles wie beim Alten.";
+		z[2] += 1;
+		
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[0] == 3 && z[1] < 3) {
+	
+		a1.innerHTML = "Ja, kenn ich. (Antwort 1.3.1)";
+		a2.innerHTML = "Bei mir genau dasselbe! (Antwort 1.3.2)";
+		a3.innerHTML = "Kriegst du inzwischen mehr Lohn? (Antwort 1.3.3)";
+		a4.innerHTML = "Du solltest dich echt um eine Gehaltserhoehung kuemmern! (Antwort 1.3.4)";
+		s1.innerHTML = "Ach die Arbeit ist stressig wie immer.";
+		z[4] += 1;
+		
+	} else if ((elem.id == "b1" || elem.id == "b2") && z[1] == 3 && z[0] < 3) {
+	
+		a1.innerHTML = "Und dann noch Beziehungsstress ... (Antwort 3.1.1)";
+		a2.innerHTML = "Und jetzt hat sich Lisbeth getrennt? (Antwort 3.1.2)";
+		a3.innerHTML = "Kriegst du wenigstens inzwischen mehr Lohn? (Antwort 3.1.3)";
+		a4.innerHTML = "Du solltest dich echt um eine Gehaltserhoehung kuemmern! (Antwort 3.1.4)";
+		s1.innerHTML = "Ja bei mir genauso. Immernoch so stressig wie frueher.";
+		z[3] += 1;
+		
+	} else if ((elem.id == "b3" || elem.id == "b4") && z[1] == 3 && z[0] < 3) {
+	
+		a1.innerHTML = "Naja, ich glaube es war richtig so. (Antwort 3.3.1)";
+		a2.innerHTML = "Es war hart, aber ich schaue jetzt nur nach vorne! (Antwort 3.3.2)";
+		a3.innerHTML = "Hat sich Anna nicht von dir getrennt? (Antwort 3.3.3)";
+		a4.innerHTML = "Ich hab gehoert du hast dich von deiner Freundin getrennt? (Antwort 3.3.4)";
+		s1.innerHTML = "Ach echt? Das ist ja schade.";
+		z[5] += 1;
+	
+	} else if ((elem.id == "b1" || elem.id == "b2") && ((z[2] == 4) || (z[4] == 4))) {
+	
+		a1.innerHTML = "Alles klar, man sieht sich.";
+		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
+		a3.innerHTML = "Komm in meine Arme. Hau rein!";
+		a4.innerHTML = "Tschau.";
+		s1.innerHTML = "Naja, machs gut. Ich muss los.";
+		z[6] += 1;
+	
+	} else if ((elem.id == "b3" || elem.id == "b4") && ((z[2] == 4) || (z[5] == 4))) {
+	
+		a1.innerHTML = "Alles klar, man sieht sich.";
+		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
+		a3.innerHTML = "Komm in meine Arme. Hau rein!";
+		a4.innerHTML = "Tschau.";
+		s1.innerHTML = "Ja wir sind nicht mehr zusammen ... So ich muss los, machs gut.";
+		z[6] += 1;
+		
+	} else if ((elem.id == "b1" || elem.id == "b2") && ((z[3] == 4) || (z[5] == 4))) {
+	
+		a1.innerHTML = "Alles klar, man sieht sich.";
+		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
+		a3.innerHTML = "Komm in meine Arme. Hau rein!";
+		a4.innerHTML = "Tschau.";
+		s1.innerHTML = "Du wirst das schon schaffen. Ich kenn dich doch! Aber ich muss jetzt wirklich los. Machs gut!";
+		z[6] += 1;
+	
+	} else if ((elem.id == "b3" || elem.id == "b4") && ((z[4] == 4) || (z[3] == 4))) {
+	
+		a1.innerHTML = "Alles klar, man sieht sich.";
+		a2.innerHTML = "Immer wenn es spannend wird, geht er ...";
+		a3.innerHTML = "Komm in meine Arme. Hau rein!";
+		a4.innerHTML = "Tschau.";
+		s1.innerHTML = "Ja, wahrscheinlich hast du Recht ... Hoer mal, ich muss jetzt leider los. Hau rein.";
+		z[6] += 1;
+	} else if ((elem.id == "b1" || elem.id == "b2" || elem.id == "b3" || elem.id == "b4") && x31 == 5) {
+	
+		a1.innerHTML = "Gespraech beenden";
+		document.getElementById("b2").style.visibility = "hidden";
+		document.getElementById("b3").style.visibility = "hidden";
+		document.getElementById("b4").style.visibility = "hidden";
+		s1.style.visibility = "hidden";
+	}
+}
+</script>
+
 </head>
 <body>
+<div id="sprechblasezwei"><p id="s1">Hi, wie gehts?</p></div>
 
-<div id="sprechblase"><p>Darf ich Ihnen Tee servieren?</p></div>
+<div id="sprechblase">
+<button id="b1" type="button" onclick="a1Change(this)"><p id="a1">Antwort 1: Gut.</p></button> </br>
+<button id="b2" type="button" onclick="a1Change(this)"><p id="a2">Antwort 2: Ganz gut</p></button> </br>
+<button id="b3" type="button" onclick="a1Change(this)"><p id="a3">Antwort 3: Naja, nicht so geil.</p></button> </br>
+<button id="b4" type="button" onclick="a1Change(this)"><p id="a4">Antwort 4: Echt beschissen.</p></button>
+</div>
 
-<div id="sprechblasezwei"><p>Antwort A: <a href="page22.html">Ja, bitte.</a>
-</br>
-							Antwort B: <a href="antwortb1.html">K&ouml;nnten Sie mich vorher rum f&uuml;hren?</a></p> </div>
+
+
 
 <div id="menu">
     <ul>
@@ -175,6 +294,9 @@ A:visited {color:white;}
           <li class="submenu"><a href="">Gesammelte Indizien</a></li>
           <li class="submenu"><a href="">Info/Hilfe</a></li>
         </ul>
+      </li>
+	  <li class="topmenu">
+        <a href="page3.html">Continue</a>
       </li>
 	  <li class="topmenu">
         <a href="index.html">Go Back</a>
