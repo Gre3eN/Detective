@@ -22,6 +22,9 @@ Daneben eine kleine Menüleiste für weitere Optionen wie zum Beispiel "Spiel Be
   da so nach jeder Antwort eine neue Seite aufgerufen werden muss.
   Daher haben wir die Gesprächoptionen nun mit JavaScript 
   geschrieben haben und müssen den Code noch in den html code implementieren.
+- Gesagt, getan! Ein Gespräch verläuft nun auf einer Seite über Javascript
+- noch etwas verbessert und die Fragen und Antworten wieder in Sprechblasen gepackt
+- und über Photoshop eine Person in das Bild eingefügt, da es über html nicht funktioniert
 
 === Feedback Alpers, nov 27 ===
 
