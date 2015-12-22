@@ -1,5 +1,5 @@
 ﻿Aufgabe 7; HTML-Teil:                                Nikita Fabrizius   19.10.15
-
+                                                      Matrikel-Nr. 2257656
 Detectiv-Spiel 
 
 Wir haben es uns so vorgestellt, dass die Geschichte des Spiels anhand von Bildern 
