@@ -21,3 +21,10 @@ Benutzte Quellen:
   - JSON: http://www.json.org/
   - Ajax: http://www.w3schools.com/ajax/
 
+=== Feedback Alpers, Jan. 12 ===
+
+1. Einer der Gründe, aus denen ich vor JS gewarnt hatte ist, dass Sie in JS (im Gegensatz zu PHP) Datenbanken nur über einen Umweg (z.B. Node.js) anbinden können. Für die Anbindung der DB dürfen Sie also durchaus node.js verwenden.
+2. Es genügt deshalb für den Leistungsnachweis, wenn Sie die MySQL-Transaktionen als Kommentar in den JS-Code eintragen, jeweils mit einem Kommentar, welche Variablen hier gespeichert bzw. geladen werden sollen. Wichtig: Dazu müssen Sie in den Dateien programmieren, in denen der JS-Code enthalten ist. Die aktuelle Aufteilung des Projekts in drei Verzeichnisse ist nicht das, worum es bei der Aufteilung der Arbeiten geht: Auch wenn Sie lediglich den MySQL-Teil programmieren sollen, müssen Sie dazu, wie hier geschrieben Ihren Teil innerhalb des JS-Teils einfügen. (Bitte sprechen Sie dazu mit den übrigen Teammitgliedern, denn das gilt für Sie alle gleichermaßen.)
+3. Ansonsten gute Dokumentation, weil sie den aktuellen Stand anschaulich wiedergibt, auch wenn es schade ist, dass der zeitliche Bezug aufgrund des Abstands zur letzten Dokumentation nicht ganz klar wird.
+
+=== Feedback Alpers, Ende ===

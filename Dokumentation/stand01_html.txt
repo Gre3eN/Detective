@@ -36,3 +36,11 @@ Außerdem sollen Sie regelmäßig den aktuellen Stand des Projekts im master mer
 
 Viele Grüße,
 Markus Alpers
+
+=== Feedback Alpers, Ende ===
+
+=== Feedback Alpers, Jan 12 ===
+
+Leider ist jetzt nicht erkennbar, was wann passiert ist. Das ließe sich zwar evtl. durchs Aufrufen der Historie dieses Dokuments in Github kontrollieren, aber es ist für Sie als Team wichtig, leicht nachvollziehen zu können, was wann warum entschieden und implementiert oder verworfen wurde und das ist mit diesem einen Dokument oder Zeitstempel leider nicht möglich.
+
+=== Feedback Alpers, Ende ===
